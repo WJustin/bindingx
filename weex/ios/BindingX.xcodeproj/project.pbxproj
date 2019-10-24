@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		75366A6310F1B497DE83EB19 /* libPods-BindingX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD59D44D801E4D64FEAB61A /* libPods-BindingX.a */; };
+		BAA0156423617BDA00FBB70D /* WPLMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA0156223617BDA00FBB70D /* WPLMacro.h */; };
+		BAA0156523617BDA00FBB70D /* WeexPluginLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA0156323617BDA00FBB70D /* WeexPluginLoader.h */; };
 		D94C355120A005B50075FAA5 /* BindingX.h in Headers */ = {isa = PBXBuildFile; fileRef = D94C355020A005B50075FAA5 /* BindingX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D955B11C202FDCD4000274AC /* EBUtility+WX.m in Sources */ = {isa = PBXBuildFile; fileRef = D955B118202FDCD4000274AC /* EBUtility+WX.m */; };
 		D955B11D202FDCD4000274AC /* EBWXModule.m in Sources */ = {isa = PBXBuildFile; fileRef = D955B119202FDCD4000274AC /* EBWXModule.m */; };
@@ -71,6 +73,8 @@
 		0F1C92092FF9562A4B475501 /* Pods-BindingX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BindingX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BindingX/Pods-BindingX.debug.xcconfig"; sourceTree = "<group>"; };
 		5CD59D44D801E4D64FEAB61A /* libPods-BindingX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BindingX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F9AEB97654FF7EEA032F16 /* Pods-BindingX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BindingX.release.xcconfig"; path = "Pods/Target Support Files/Pods-BindingX/Pods-BindingX.release.xcconfig"; sourceTree = "<group>"; };
+		BAA0156223617BDA00FBB70D /* WPLMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPLMacro.h; sourceTree = "<group>"; };
+		BAA0156323617BDA00FBB70D /* WeexPluginLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeexPluginLoader.h; sourceTree = "<group>"; };
 		C45843E41E84EF5B00D88C0B /* BindingX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BindingX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45843EF1E84EF7B00D88C0B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D94C355020A005B50075FAA5 /* BindingX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BindingX.h; sourceTree = "<group>"; };
@@ -177,6 +181,8 @@
 				D9A6A94A2043A699001AEC67 /* core */,
 				D955B11A202FDCD4000274AC /* EBUtility+WX.h */,
 				D955B118202FDCD4000274AC /* EBUtility+WX.m */,
+				BAA0156323617BDA00FBB70D /* WeexPluginLoader.h */,
+				BAA0156223617BDA00FBB70D /* WPLMacro.h */,
 				D9A27DC72047E237003AC20E /* EBWXOldModule.h */,
 				D9A27DC82047E237003AC20E /* EBWXOldModule.m */,
 				D955B11B202FDCD4000274AC /* EBWXModule.h */,
@@ -277,10 +283,12 @@
 				D9A27DA32047E229003AC20E /* EBUtility.h in Headers */,
 				D9A27DBD2047E229003AC20E /* EBJSMath.h in Headers */,
 				D9A27DAB2047E229003AC20E /* NSObject+EBTuplePacker.h in Headers */,
+				BAA0156423617BDA00FBB70D /* WPLMacro.h in Headers */,
 				D9A27DB72047E229003AC20E /* EBExpressionProperty.h in Headers */,
 				D9F28AE22071E11100CE451B /* EBHandlerFactory.h in Headers */,
 				D9F1C5A6206CE4800029B542 /* EBWXUtils.h in Headers */,
 				D9A27DBA2047E229003AC20E /* EBJSTransform.h in Headers */,
+				BAA0156523617BDA00FBB70D /* WeexPluginLoader.h in Headers */,
 				D955B11E202FDCD4000274AC /* EBUtility+WX.h in Headers */,
 				D9A27DB22047E229003AC20E /* EBGyroEuler.h in Headers */,
 				D9A27DB62047E229003AC20E /* EBExpressionGesture.h in Headers */,
@@ -335,6 +343,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = C45843DA1E84EF5B00D88C0B;

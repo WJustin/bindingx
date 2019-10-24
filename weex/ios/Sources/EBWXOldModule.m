@@ -18,7 +18,7 @@
 #import <WeexSDK/WeexSDK.h>
 #import "EBExpressionHandler.h"
 #import <pthread/pthread.h>
-#import <WeexPluginLoader/WeexPluginLoader.h>
+#import "WeexPluginLoader.h"
 #import "EBBindData.h"
 #import "EBUtility+WX.h"
 #import "EBWXUtils.h"
